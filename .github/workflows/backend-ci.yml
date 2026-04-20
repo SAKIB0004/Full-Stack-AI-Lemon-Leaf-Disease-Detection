@@ -27,14 +27,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
       - name: Syntax check
-        run: |
-          python -m compileall app
+        run: python -m compileall app
 
       - name: Verify important backend files exist
         run: |
@@ -42,7 +36,8 @@ jobs:
           test -f app/inference.py
           test -f Dockerfile
           test -f start.sh
+          test -f fastapi_artifacts/class_names.json
+          test -f fastapi_artifacts/inference_config.json
 
       - name: Docker build check
-        run: |
-          docker build -t lemon-backend .
+        run: docker build -t lemon-backend .
