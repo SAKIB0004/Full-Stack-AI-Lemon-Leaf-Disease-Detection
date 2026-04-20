@@ -1,0 +1,30 @@
+# Deep Learning & Computer Vision
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# Data Processing & Analysis
+numpy>=2.1,<3
+pandas>=2.2.3,<3
+
+# Visualization
+matplotlib>=3.9
+seaborn>=0.13.2
+Pillow>=10.4
+
+# Image Processing
+opencv-python>=4.10
+
+# Machine Learning & Metrics
+scikit-learn>=1.6,<2
+
+# Jupyter & IPython
+jupyter
+ipython
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+gdown

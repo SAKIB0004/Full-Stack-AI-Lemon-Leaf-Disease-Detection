@@ -1,0 +1,111 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+env/
+
+# -----------------------------
+# FastAPI / Backend env
+# -----------------------------
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# -----------------------------
+# Model / artifacts
+# -----------------------------
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+
+# Keep JSON inference metadata if needed
+# Ignore local large model bundle
+backend/fastapi_artifacts/ensemble_bundle.pth
+
+# -----------------------------
+# Node / Next.js / Frontend
+# -----------------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/coverage/
+
+# Frontend env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# -----------------------------
+# Jupyter / Research
+# -----------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Local tool folders
+# -----------------------------
+.claude/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# Build / cache
+# -----------------------------
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# -----------------------------
+# Docker
+# -----------------------------
+*.pid
+
+# add this to .gitignore
+node_modules/
+.next/
+out/
+dist/
+build/
+.env
+.env.local
+
+node_modules/
+.next/
+out/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
