@@ -66,14 +66,13 @@ Lemon leaf diseases can reduce plant health and crop quality if they are not ide
 ## Screenshots
 
 ### Home Page
-![Home Page](assets\screenshots\LeafNet1.png)
+![Home Page](assets/screenshots/LeafNet1.png)
 
 ### Upload State
 ![Upload State](assets/screenshots/LeafNet2.png)
 
 ### Prediction Result
 ![Prediction Result](assets/screenshots/LeafNet3.png)
-
 ---
 
 ## Project Structure
